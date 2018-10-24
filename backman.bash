@@ -7,7 +7,7 @@ n=
 
 ##### ##### ##### ##### #####
 
-which rsync terminal-notifier > /dev/null
+command -v rsync terminal-notifier > /dev/null
 
 src="$1"
 dest="$2"
