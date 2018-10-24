@@ -1,4 +1,5 @@
 #!/bin/bash -eu
+# shellcheck disable=SC2012
 
 appname="Backman🥠 "
 
@@ -7,7 +8,7 @@ n=
 
 ##### ##### ##### ##### #####
 
-command -v rsync terminal-notifier > /dev/null
+command -V rsync terminal-notifier > /dev/null
 
 src="$1"
 dest="$2"
